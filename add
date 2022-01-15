@@ -1,0 +1,201 @@
+ <hr>
+ <div class="logos">
+ <img id="ebay" class="logo" src="https://cdn-icons-png.flaticon.com/512/888/888848.png" alt="">
+ <img id="tesla" class="logo" src="https://cdn.freebiesupply.com/logos/large/2x/tesla-motors-logo-png-transparent.png" alt="">
+ <img id="amazon" class="logo" src="https://kfinancial.com/wp-content/uploads/2019/02/amazon-logo-vector-png-vector-png-free-amazon-logos-705.jpg" alt="">
+ <img id="apple" class="logo" src="https://www.cppng.com/file/download/2020-06/58622-logo-iphone-haven-animal-apple-hq-image-free-png.png" alt="">
+ <img id="microsoft" class="logo" src="https://cdn.vox-cdn.com/thumbor/NeSo4JAqv-fFJCIhb5K5eBqvXG4=/7x0:633x417/1200x800/filters:focal(7x0:633x417)/cdn.vox-ccom/assets/1311169/mslogo.jpg" alt="">
+ <img id="meta" class="logo" src="https://static.dezeen.com/uploads/2021/11/meta-facebook-rebranding-name-news_dezeen_2364_col_hero2.jpg" alt="">
+ <img id="alphabet" class="logo" src="https://1000logos.net/wp-content/uploads/2019/12/Alphabet-emblem.jpg" alt="">
+ </div>
+ <hr>
+
+
+
+ hr{
+    width: 80%;
+    color: rgb(180, 175, 175);
+    border-radius: 50%;
+}
+.logos{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.logo{
+    padding-right: 5%;
+
+}
+#ebay{
+    width: 90px;
+    height: 90px;
+ }
+#tesla{
+    width: 70px;
+    height: 90px;
+}
+#amazon{
+    width: 200px;
+    height: 90px;
+}
+#apple{
+    width: 50px;
+    height: 70px;
+    margin-bottom: 7px;
+}
+#microsoft{
+    width: 111px;
+    height: 90px;
+}
+#meta{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 17px;
+}
+#alphabet{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 17px;
+}
+
+
+/*----------------
+      Keyframe 
+------------------*/
+@keyframes typing {
+    0% {
+        content: 'S';
+    }
+
+    4% {
+        content: 'St';
+    }
+
+    8% {
+        content: 'Sta';
+    }
+
+    12% {
+        content: 'Start';
+    }
+
+    16% {
+        content: 'Start y';
+    }
+
+    20% {
+        content: 'Start yo';
+    }
+
+    24% {
+        content: 'Start you';
+    }
+
+    28% {
+        content: 'Start your';
+    }
+
+    32% {
+        content: 'Start your jo';
+    }
+
+    36% {
+        content: 'Start your jou';
+    }
+
+    40% {
+        content: 'Start your journe';
+    }
+
+    44% {
+        content: 'Start your journey ';
+    }
+
+    48% {
+        content: 'Start your journey wi';
+    }
+
+    52% {
+        content: 'Start your journey with';
+    }
+
+    56% {
+        content: 'Start your journey with Ma';
+    }
+
+    60% {
+        content: 'Start your journey with Man';
+    }
+
+    64%,
+    83% {
+        content: 'Start your journey with Mang';
+    }
+
+    84% {
+        content: 'Start your journey with Mango';
+    }
+
+    85% {
+        content: 'Start your journey with Mango-';
+    }
+
+    86% {
+        content: 'Start your journey with Mango-g';
+    }
+
+    87% {
+        content: 'Start your journey with Mango-ge';
+    }
+
+    88% {
+        content: 'Start your journey with Mango-gea';
+    }
+
+    89% {
+        content: 'Start your journey with Mango-gear';
+    }
+
+    90% {
+        content: 'Start your journey with Man';
+    }
+
+    91% {
+        content: 'Start your journey with';
+    }
+
+    92% {
+        content: 'Start your journey ';
+    }
+
+    93% {
+        content: 'Start your jou';
+    }
+
+    94% {
+        content: 'Start your ';
+    }
+
+    95% {
+        content: 'Start y';
+    }
+
+    96% {
+        content: 'Star';
+    }
+
+    97% {
+        content: 'St';
+    }
+
+    98% {
+        content: 'S';
+    }
+
+    99% {
+        content: '';
+    }
+
+    100% {
+        content: '';
+    }
+}
