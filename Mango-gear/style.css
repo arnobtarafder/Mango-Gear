@@ -1,0 +1,468 @@
+body{
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+/*------------ 
+section-One
+--------------*/
+.section1{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.menu-bar{
+    margin-top: 17px;
+    margin-right: 45%;
+}
+.non-buttons{
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+}
+.non-buttons:hover{
+    color: navy;
+    font-size: 21px;
+}
+
+.first-line{
+    float: right;
+}
+.first-text{
+    font-weight: lighter;
+    color: rgb(236, 182, 203);
+    white-space: nowrap;
+    position: relative;
+}
+.first-text::before{
+    content: 'Mango-gear products';
+    position: absolute;
+    color:  rgb(209, 36, 102);
+    animation: typing 3s linear infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'M';
+    }
+
+    4% {
+        content: 'Ma';
+    }
+
+    8% {
+        content: 'Man';
+    }
+
+    12% {
+        content: 'Mang';
+    }
+
+    16% {
+        content: 'Mango';
+    }
+
+    20% {
+        content: 'Mango-g';
+    }
+
+    24% {
+        content: 'Mango-ge';
+    }
+
+    28% {
+        content: 'Mango-gea';
+    }
+
+    32% {
+        content: 'Mango-gear';
+    }
+
+    36% {
+        content: 'Mango-gear p';
+    }
+
+    40% {
+        content: 'Mango-gear pr';
+    }
+
+    44% {
+        content: 'Mango-gear pro';
+    }
+
+    48% {
+        content: 'Mango-gear prod';
+    }
+
+    52% {
+        content: 'Mango-gear produ';
+    }
+
+    56% {
+        content: 'Mango-gear product';
+    }
+
+    60% {
+        content: 'Mango-gear products';
+    }
+
+    64%,
+    83% {
+        content: 'Mango-gear products';
+    }
+
+    84% {
+        content: 'Mango-gear product';
+    }
+
+    85% {
+        content: 'Mango-gear produ';
+    }
+
+    86% {
+        content: 'Mango-gear pro';
+    }
+
+    87% {
+        content: 'Mango-gear p';
+    }
+
+    88% {
+        content: 'Mango-gear ';
+    }
+
+    89% {
+        content: 'Mango-gea';
+    }
+
+    90% {
+        content: 'Mango-ge';
+    }
+
+    91% {
+        content: 'Mango-g';
+    }
+
+    92% {
+        content: 'Mango-';
+    }
+
+    93% {
+        content: 'Mango';
+    }
+
+    94% {
+        content: 'Mang';
+    }
+
+    95% {
+        content: 'Man';
+    }
+
+    96% {
+        content: 'Ma';
+    }
+
+    97% {
+        content: 'M';
+    }
+
+    98% {
+        content: 'M';
+    }
+
+    99% {
+        content: '';
+    }
+
+    100% {
+        content: '';
+    }
+    }
+
+
+
+/*------------
+ section-Two
+--------------*/
+.section2{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.sec-div{
+    margin-top: 40px;
+}
+.animation {
+    position: relative;
+    animation: color 7s linear 2s infinite alternate;
+  }
+  @keyframes color {
+    0% {
+      color: #632626;
+    }
+    11%{
+      color: rgb(255, 0, 43);
+    }
+    25% {
+      color: orange;
+    }
+    50% {
+      color: blue;
+    }
+    75% {
+      color: green;
+    }
+    100% {
+      color: rgb(192, 8, 192);
+    }
+  }
+
+.border-left{
+    padding-left: 2%;
+    border-left: 5px solid #e4014d;
+}
+.main-camera{
+    width: 271px;
+    height: 271px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-left: 20%;
+    margin-bottom: 133px;
+}
+.main-camera:hover{
+    transition: 7s;
+    transform: scale(1.2);
+    box-shadow: 5px;
+}
+.speech1{
+    margin-bottom: 35px;
+} 
+.speech1:hover{
+    color: rgb(7, 88, 163);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.link-button{
+    text-decoration:none;
+    border:2px solid rgb(209, 36, 102);
+    background-color: rgb(39, 38, 38);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 17px;
+    padding-left: 13px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
+}
+.link-button:hover{
+    background-image: linear-gradient(rgb(209, 36, 102),rgb(255, 109, 128));
+}
+.fa-arrow-right{
+    margin-left: 17px;
+    padding-right: 13px;
+}
+.orange{
+    color:rgb(238, 79, 100);
+}
+
+/*------------------------- 
+section-collection-Three
+--------------------------- */
+header{
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    color: slategrey;
+    margin-bottom: 30px;
+    display: block;
+}
+.section-collection{
+    margin-left: 11%;
+    margin-right: 7%;
+    width: 78%;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.collection{
+    border: 1px solid white;
+    border-radius: 11px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 21px;
+    box-shadow: 11px 11px 37px rgb(197, 197, 197);
+    margin-bottom: 30px;
+}
+.collection:hover{
+    cursor: pointer;
+}
+.collection-photo{
+    max-width: 91%;
+    max-height: 100%;
+    padding-left: 4.5%;
+}
+.collection-title{
+    padding-top: 11px;
+    padding-left: 7.5%;
+
+}
+.collection-title:hover{
+    color: cadetblue;
+}
+.collection-info{
+    padding-left: 7.5%;
+}
+.collection-description{
+    font-weight: lighter;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 11px;
+}
+.collection-description:hover{
+    color: cornflowerblue;
+}
+.filled{
+    color: rgb(245, 193, 61);
+}
+.empty{
+    color: rgb(194, 192, 192);
+}
+.More{
+    text-decoration:none;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+.More:hover{
+    text-decoration:none;
+    border:2px solid rgb(209, 36, 102);
+    background-color: rgb(39, 38, 38);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-radius: 17px;
+    padding-left: 13px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
+}
+
+
+/*-------------
+ Section-Four 
+---------------*/
+.section4{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 11%;
+}
+.Photography-package{
+    margin-right: 13%;
+}
+.photo11{
+    margin-top: 50px;
+    height: 250px;
+    border-radius: 13px;
+}
+.speech2{
+    margin-bottom: 21px;
+}
+.speech2:hover{
+    color: darkblue;
+}
+.Photography{
+    margin-top: 50px;
+}
+
+/*--------
+ footer
+---------- */
+footer{
+    background-color: rgb(13, 5, 58);
+    text-align: center;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+footer .fab{
+    color: white;
+}
+
+/*---------------------
+ Media Quaries Mobile
+-----------------------*/
+@media only screen and (max-width:688px) {
+    body{
+        background-color: cornsilk;
+    }
+    .first-text{
+        color: rgb(164, 175, 10);
+        font-weight: bolder;
+    }
+    .main-camera{
+        display: none;
+    }
+    .collection-description{
+        visibility: 50%;
+    }
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+        margin-left: 3px;
+    }
+    .Photography-package{
+        display: none;
+    }
+    .photo11{
+        display: none;
+    }
+    .speech1{
+        display: none;
+    }
+    .collection{
+        max-width: 100%;
+    }
+}
+
+/*-----------------------
+  Media Quaries Tablet
+-------------------------*/
+@media only screen and (min-width:691px) and (max-width:1111px) {
+    body{
+        background-color: rgb(227, 253, 255);
+    }
+    .first-text{
+        color:  rgb(231, 158, 186);
+    }
+    .main-camera{
+        display: none;
+    }
+    .collection-description{
+        visibility: 50%;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+     
+    .Photography-package{
+        display: none;
+    }
+    .photo11{
+        display: none;
+    }
+    .speech1{
+        display: none;
+    }
+    .collection{
+        max-width: 100%;
+    }
+}
