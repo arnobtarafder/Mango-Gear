@@ -27,13 +27,13 @@ body{
 .branding-line{
     float: right;
 }
-.branding-text{
+.branding-header{
     font-weight: lighter;
     color: rgb(236, 182, 203);
     white-space: nowrap;
     position: relative;
 }
-.branding-text::before{
+.branding-header::before{
     content: 'Mango-gear products';
     position: absolute;
     color:  rgb(209, 36, 102);
@@ -221,7 +221,7 @@ body{
     padding-left: 2%;
     border-left: 5px solid #e4014d;
 }
-.right-div{
+.branding-camera{
     width: 271px;
     height: 271px;
     border: 3px solid white;
@@ -231,20 +231,29 @@ body{
     margin-right: 10%;
     margin-left: 20%;
     margin-bottom: 133px;
+    transition: 0.5s all ease-in-out;
 }
-.right-div:hover{
+.branding-camera:hover{
     transition: 7s;
-    transform: scale(1.2);
+    transform: scale(1.05);
     box-shadow: 5px;
 }
 .branding-speech{
     margin-bottom: 35px;
 } 
 .branding-speech:hover{
-    color: rgb(7, 88, 163);
+    color: rgba(7, 88, 163, 0.87);
     font-weight: bold;
-    font-size: 1.3em;
+    animation: moving 17s;
+    transform: scale(1.05);
 }
+@keyframes moving {
+    30% {font-size: 15px;}
+    50% {font-size: 17px;}
+    70% {font-size: 20px;}
+    100% {font-size: 17px;}
+  }
+
 .link-button{
     text-decoration:none;
     border:2px solid rgb(209, 36, 102);
@@ -442,7 +451,11 @@ footer .fab{
         color:  rgb(231, 158, 186);
     }
     .branding-camera{
-        display: none;
+        /* display: none; */
+        margin-left: 110px;
+        margin-top: 5%;
+        height: 200px;
+        width: 250px;
     }
     .collection-description{
         visibility: 50%;
