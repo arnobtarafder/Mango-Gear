@@ -353,7 +353,7 @@ header{
 
 
 /*-----------------------------------------------
-        PHOTOGRAPHERS COMMUNTITY SECTION 
+        PHOTOGRAPHERS COMMUNITY SECTION 
 -------------------------------------------------*/
 .photographers-community-section{
     display: flex;
@@ -364,7 +364,7 @@ header{
 .Photography-package{
     margin-right: 13%;
 }
-.photographers-communtity-photo{
+.photographers-community-photo{
     margin-top: 50px;
     height: 250px;
     border-radius: 13px;
@@ -379,9 +379,9 @@ header{
     margin-top: 50px;
 }
 
-/*--------
- footer
----------- */
+/*------------------
+       FOOTER
+-------------------- */
 footer{
     background-color: rgb(13, 5, 58);
     text-align: center;
@@ -394,14 +394,14 @@ footer .fab{
     color: white;
 }
 
-/*---------------------
- Media Quaries Mobile
------------------------*/
+/*-----------------------------------
+        MEDIA QUERIES MOBILE
+-------------------------------------*/
 @media only screen and (max-width:688px) {
     body{
         background-color: cornsilk;
     }
-    .first-text{
+    .branding-text{
         color: rgb(164, 175, 10);
         font-weight: bolder;
     }
@@ -412,7 +412,7 @@ footer .fab{
         visibility: 50%;
     }
     .collections{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         display: flex;
         flex-direction: column;
         margin-left: 3px;
@@ -420,10 +420,10 @@ footer .fab{
     .Photography-package{
         display: none;
     }
-    .photo11{
+    .photographers-community-photo{
         display: none;
     }
-    .speech1{
+    .branding-speech{
         display: none;
     }
     .collection{
@@ -431,17 +431,17 @@ footer .fab{
     }
 }
 
-/*-----------------------
-  Media Quaries Tablet
--------------------------*/
-@media only screen and (min-width:691px) and (max-width:1111px) {
+/*-----------------------------------
+        MEDIA QUERIES TABLET
+-------------------------------------*/
+@media only screen and (min-width: 691px) and (max-width: 1111px) {
     body{
         background-color: rgb(227, 253, 255);
     }
-    .first-text{
+    .branding-text{
         color:  rgb(231, 158, 186);
     }
-    .main-camera{
+    .branding-camera{
         display: none;
     }
     .collection-description{
@@ -456,10 +456,10 @@ footer .fab{
     .Photography-package{
         display: none;
     }
-    .photo11{
+    .photographers-community-photo{
         display: none;
     }
-    .speech1{
+    .branding-speech{
         display: none;
     }
     .collection{
