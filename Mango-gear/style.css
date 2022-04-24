@@ -231,13 +231,14 @@ body{
     margin-right: 10%;
     margin-left: 20%;
     margin-bottom: 133px;
-    transition: 0.5s all ease-in-out;
+    transition: 0.7s all ease-in-out;
 }
 .branding-camera:hover{
     transition: 7s;
-    transform: scale(1.05);
+    transform: scale(1.15);
     box-shadow: 5px;
 }
+
 .branding-speech{
     margin-bottom: 35px;
 } 
