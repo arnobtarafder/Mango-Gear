@@ -2,10 +2,10 @@ body{
     font-family: 'Moon Dance', cursive;
     font-family: 'Poppins', sans-serif;
 }
-/*------------ 
-section-One
---------------*/
-.section1{
+/*--------------------------- 
+       NAVBAR-SECTION
+-----------------------------*/
+.navbar-section{
     display: flex;
     margin-left: 7%;
     margin-right: 7%;
@@ -24,16 +24,16 @@ section-One
     font-size: 21px;
 }
 
-.first-line{
+.branding-line{
     float: right;
 }
-.first-text{
+.branding-text{
     font-weight: lighter;
     color: rgb(236, 182, 203);
     white-space: nowrap;
     position: relative;
 }
-.first-text::before{
+.branding-text::before{
     content: 'Mango-gear products';
     position: absolute;
     color:  rgb(209, 36, 102);
@@ -181,15 +181,15 @@ section-One
 
 
 
-/*------------
- section-Two
---------------*/
-.section2{
+/*----------------------------
+       LANDING-SECTION
+------------------------------*/
+.landing-section{
     display: flex;
     margin-left: 10%;
     margin-right: 5%;
 }
-.sec-div{
+.left-div{
     margin-top: 40px;
 }
 .animation {
@@ -221,7 +221,7 @@ section-One
     padding-left: 2%;
     border-left: 5px solid #e4014d;
 }
-.main-camera{
+.right-div{
     width: 271px;
     height: 271px;
     border: 3px solid white;
@@ -232,15 +232,15 @@ section-One
     margin-left: 20%;
     margin-bottom: 133px;
 }
-.main-camera:hover{
+.right-div:hover{
     transition: 7s;
     transform: scale(1.2);
     box-shadow: 5px;
 }
-.speech1{
+.branding-speech{
     margin-bottom: 35px;
 } 
-.speech1:hover{
+.branding-speech:hover{
     color: rgb(7, 88, 163);
     font-weight: bold;
     font-size: 1.3em;
@@ -269,9 +269,9 @@ section-One
     color:rgb(238, 79, 100);
 }
 
-/*------------------------- 
-section-collection-Three
---------------------------- */
+/*---------------------------------- 
+         COLLECTION-SECTION
+------------------------------------ */
 header{
     text-align: center;
     font-weight: 700;
@@ -280,7 +280,7 @@ header{
     margin-bottom: 30px;
     display: block;
 }
-.section-collection{
+.collection-section{
     margin-left: 11%;
     margin-right: 7%;
     width: 78%;
@@ -352,10 +352,10 @@ header{
 }
 
 
-/*-------------
- Section-Four 
----------------*/
-.section4{
+/*-----------------------------------------------
+        PHOTOGRAPHERS COMMUNTITY SECTION 
+-------------------------------------------------*/
+.photographers-community-section{
     display: flex;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -364,15 +364,15 @@ header{
 .Photography-package{
     margin-right: 13%;
 }
-.photo11{
+.photographers-communtity-photo{
     margin-top: 50px;
     height: 250px;
     border-radius: 13px;
 }
-.speech2{
+.photographers-community-speech{
     margin-bottom: 21px;
 }
-.speech2:hover{
+.photographers-community-speech:hover{
     color: darkblue;
 }
 .Photography{
@@ -405,7 +405,7 @@ footer .fab{
         color: rgb(164, 175, 10);
         font-weight: bolder;
     }
-    .main-camera{
+    .branding-camera{
         display: none;
     }
     .collection-description{
